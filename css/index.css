@@ -119,6 +119,12 @@ h2 {
     font-size: 32px;
     top: 742px;
 }
+h4 {
+    font-family: 'Alatsi', sans-serif;
+    color: #323C3F;
+    font-weight: 400;
+    font-size: 20px;
+}
 .uwh, .dol, .clarity {
     display: flex;
     align-items: top;
@@ -224,7 +230,7 @@ footer {
 .aboutFooter {
     flex: none;
 }
-/*Resume page*/
+/*Resume bulleted lists*/
 .experienceList {
     display: block; 
     font-family: 'Titillium Web', sans-serif;
@@ -240,6 +246,7 @@ footer {
     width: 1em;
     margin-left: -1em;
   }
+/*Resume top section*/
 .resumeTop {
     display: flex;
     flex-direction: row;
@@ -261,3 +268,57 @@ footer {
 .resumeHeader {
     margin-left: 120px;
   }
+/*experience, education, skills*/
+.experienceBar {
+    border-left: 4px solid #9FE2BF;
+    height: 1360px;
+    margin: 30px;
+}
+.experience {
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    align-items: flex-start;
+    min-width: 145px;
+}
+.experienceCopy {
+    margin-right: 70px;
+}
+.experienceTitle {
+    min-width: 145px;
+}
+.educationBar {
+    border-left: 4px solid #9FE2BF;
+    height: 390px;
+    margin: 30px;
+}
+.education {
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    align-items: flex-start;
+    min-width: 145px;
+}
+.educationCopy {
+    margin-right: 70px;
+}
+.educationTitle {
+    min-width: 145px;
+}
+.skillsBar {
+    border-left: 4px solid #9FE2BF;
+    height: 810px;
+    margin: 30px;
+}
+.skills {
+    display: flex;
+    flex-direction: row;
+    margin-left: 120px;
+    align-items: flex-start;
+}
+.skillsCopy {
+    margin-right: 70px;
+}
+.skillsTitle {
+    min-width: 145px;
+}
