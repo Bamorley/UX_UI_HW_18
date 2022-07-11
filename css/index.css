@@ -240,8 +240,24 @@ footer {
     width: 1em;
     margin-left: -1em;
   }
-  .resumeTop {
+.resumeTop {
     display: flex;
     flex-direction: row;
-    align-items: baseline;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+  }
+.resumeButton {
+    margin-left: 50px;
+    white-space: nowrap;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.resumeTop {
+    margin-right: 70px;
+    margin-left: 120px;
+  }
+.resumeHeader {
+    margin-left: 120px;
   }
