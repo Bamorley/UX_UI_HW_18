@@ -240,3 +240,8 @@ footer {
     width: 1em;
     margin-left: -1em;
   }
+  .resumeTop {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+  }
