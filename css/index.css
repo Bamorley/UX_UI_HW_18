@@ -31,10 +31,10 @@ body {
 nav {
     padding: 1%;
 }
-ul {
+nav ul {
     margin-right: 70px;
 }
-li {
+nav li {
     color: #F8F8F8;
     font-family: 'Alatsi', sans-serif;
     margin-right: 20px;
@@ -226,9 +226,17 @@ footer {
 }
 /*Resume page*/
 .experienceList {
-    display: block;
+    display: block; 
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
     color: #323C3F;
     font-weight: 400;
 }
+.experienceList::before {
+    content: "\2022";
+    color: #323C3F;
+    font-weight: normal;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
