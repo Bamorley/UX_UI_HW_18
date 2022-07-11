@@ -307,7 +307,7 @@ footer {
 }
 .skillsBar {
     border-left: 4px solid #9FE2BF;
-    height: 810px;
+    height: 600px;
     margin: 30px;
 }
 .skills {
@@ -316,8 +316,13 @@ footer {
     margin-left: 120px;
     align-items: flex-start;
 }
-.skillsCopy {
+.skillsCopy1 {
     margin-right: 70px;
+    margin-bottom: 100px;
+}
+.skillsCopy2 {
+    margin-right: 70px;
+    margin-bottom: 100px;
 }
 .skillsTitle {
     min-width: 145px;
