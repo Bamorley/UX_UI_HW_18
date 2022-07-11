@@ -35,11 +35,11 @@ ul {
     margin-right: 70px;
 }
 li {
-    display: inline;
     color: #F8F8F8;
     font-family: 'Alatsi', sans-serif;
     margin-right: 20px;
     font-size: 18px;
+    display: inline;
 }
 .navLink {
     color: #F8F8F8;
@@ -223,4 +223,12 @@ footer {
 }
 .aboutFooter {
     flex: none;
+}
+/*Resume page*/
+.experienceList {
+    display: block;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: #323C3F;
+    font-weight: 400;
 }
