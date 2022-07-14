@@ -271,8 +271,8 @@ footer {
 /*experience, education, skills*/
 .experienceBar {
     border-left: 4px solid #9FE2BF;
-    height: 1360px;
     margin: 30px;
+    align-self: stretch;
 }
 .experience {
     display: flex;
@@ -289,7 +289,7 @@ footer {
 }
 .educationBar {
     border-left: 4px solid #9FE2BF;
-    height: 390px;
+    align-self: stretch;
     margin: 30px;
 }
 .education {
@@ -307,7 +307,7 @@ footer {
 }
 .skillsBar {
     border-left: 4px solid #9FE2BF;
-    height: 600px;
+    align-self: stretch;
     margin: 30px;
 }
 .skills {
@@ -318,12 +318,13 @@ footer {
 }
 .skillsCopy1 {
     margin-right: 70px;
-    margin-bottom: 100px;
 }
 .skillsCopy2 {
     margin-right: 70px;
-    margin-bottom: 100px;
 }
 .skillsTitle {
     min-width: 145px;
+}
+.skills {
+    margin-bottom: 100px;
 }
