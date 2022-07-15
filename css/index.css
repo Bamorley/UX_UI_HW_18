@@ -352,7 +352,6 @@ footer {
 }
 .uwhH {
     margin-left: 120px;  
-
 }
 /*end top section -- uwh case study*/
 /*very janky solution to horizontal bars -- uwh case study*/
@@ -454,11 +453,11 @@ hr.solid45 {
     padding: 3px;
     margin: 25px;
   }
-  .right {
+.right {
     transform: rotate(-45deg);
     -webkit-transform: rotate(-45deg);
   }
-  .circleSide {
+.circleSide {
     margin-right: 120px;
     margin-left: 40px;
   }
