@@ -167,6 +167,11 @@ button {
     font-size: 18px;
     border-radius: 8px;
     margin-right: 20px;
+    text-decoration: none;
+}
+button a {
+    text-decoration: none;
+    color: #F8F8F8;
 }
 button:hover {
     background-color: #C2ADBC; 
@@ -181,6 +186,11 @@ button:hover {
     text-align: center;
     font-size: 18px;
     border-radius: 8px;
+    text-decoration: none;
+}
+.secondarybutton a {
+    text-decoration: none;
+    color: #A48596;
 }
 .secondaryButton:hover {
     background-color: lightgray; 
@@ -220,7 +230,8 @@ footer {
     border-radius: 50%;
     height: 300px;
     width: auto;
-    margin: 20px;
+    margin-right: 20px;
+    margin-left: 100px;
 }
 .aboutMe {
     display: flex;
@@ -246,6 +257,7 @@ footer {
     width: 1em;
     margin-left: -1em;
   }
+/*end Resume bulleted lists*/
 /*Resume top section*/
 .resumeTop {
     display: flex;
@@ -268,7 +280,8 @@ footer {
 .resumeHeader {
     margin-left: 120px;
   }
-/*experience, education, skills*/
+/*end Resume top section*/
+/*experience, education, skills -- resume*/
 .experienceBar {
     border-left: 4px solid #9FE2BF;
     margin: 30px;
@@ -328,3 +341,79 @@ footer {
 .skills {
     margin-bottom: 100px;
 }
+/*end experience, education, skills -- resume*/
+/*top section -- uwh case study*/
+.diving {
+    margin-left: 120px;
+}
+.uwhP {
+    margin-left: 120px;  
+    margin-right: 120px;
+}
+.uwhH {
+    margin-left: 120px;  
+
+}
+/*end top section -- uwh case study*/
+/*very janky solution to horizontal bars -- uwh case study*/
+.dividerLine {
+    display: flex; 
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+hr.solid40 {
+    border-top: 4px solid #9FE2BF;
+    min-width: 40%;
+}
+hr.solid60 {
+    border-top: 4px solid #9FE2BF;
+    min-width: 60%;
+}
+hr.solid50 {
+    border-top: 4px solid #9FE2BF;
+    min-width: 50%;
+}
+hr.solid45 {
+    border-top: 4px solid #9FE2BF;
+    min-width: 45%;
+}
+/*endvery janky solution to horizontal bars -- uwh case study*/
+.oldSite {
+    display: flex; 
+    justify-content: center;
+    align-items: flex-start;
+}
+.uwhList {
+    display: block; 
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    color: #323C3F;
+    font-weight: 400;
+}
+.uwhList::before {
+    content: "\2022";
+    color: #323C3F;
+    font-weight: normal;
+    display: inline-block; 
+    width: 1em;
+    margin-left: 100px;
+  }
+.surveyResults {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.surveyImg {
+    max-height: 250px;
+    margin-right: 40px;
+}
+.surveyP {
+    margin-left: 120px;  
+    margin-right: 20px;
+}
+.userPersona {
+    max-width: 690px;
+    margin: auto;
+}
+/*end uwh case study*/
