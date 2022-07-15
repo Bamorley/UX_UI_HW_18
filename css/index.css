@@ -416,4 +416,50 @@ hr.solid45 {
     max-width: 690px;
     margin: auto;
 }
+.circle1 { 
+    margin-left: 120px;
+    min-width:100px; 
+    height:100px; 
+    border-radius: 50%;
+    background-color: #A48596;
+    box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+.circle2 { 
+    min-width:100px; 
+    height:100px; 
+    border-radius: 50%;
+    background-color: #A48596;
+    box-shadow: inset -8px -7px 4px 0px rgba(0,0,0,0.3);
+    z-index: 1;
+}
+.circleText {
+    padding-top: 15px;
+    text-align: center;
+    color: #F8F8F8;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    z-index: 2;
+}
+.circleFull {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.arrow {
+    border: solid #323C3F;
+    border-width: 0 3px 3px 0;
+    padding: 3px;
+    margin: 25px;
+  }
+  .right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+  .circleSide {
+    margin-right: 120px;
+    margin-left: 40px;
+  }
 /*end uwh case study*/
