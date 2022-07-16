@@ -374,12 +374,18 @@ hr.solid {
     justify-content: center;
     align-items: flex-start;
 }
+.listFull {
+    width: 800px; 
+    margin-left: 160px;
+}
 .uwhList {
     display: block; 
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
     color: #323C3F;
     font-weight: 400;
+    margin-left: 20px;
+    text-indent: -20px;
 }
 .uwhList::before {
     content: "\2022";
@@ -387,7 +393,6 @@ hr.solid {
     font-weight: normal;
     display: inline-block; 
     width: 1em;
-    margin-left: 100px;
   }
 .surveyResults {
     display: flex;
@@ -452,4 +457,58 @@ hr.solid {
     margin-right: 120px;
     margin-left: 40px;
   }
-/*end uwh case study*/
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.logos img {
+    max-width: 232px;
+    height: auto; 
+}
+.iterations {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+}
+.iterations img {
+    max-width: 271px;
+}
+.winning {
+    margin: auto; 
+}
+.winning img {
+    margin-bottom: 20px;
+}
+/*end uwh case study body copy*/
+/*next case study preview*/
+.grayBox {
+    background-color: #323C3F;
+    width: 400px;
+    position: absolute; 
+    z-index: 2;
+    top: 25%;
+    right: 0px;
+}
+.grayBox p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #F8F8F8;
+    text-align: right;
+    padding: 20px;
+}
+.nextProject {
+    position: relative;
+    z-index: 1;
+    margin: 50px 0px 100px 0px;
+}
+.nextProject img {
+    width: 100%;
+    object-fit: cover;
+}
+/*end next case study preview*/
