@@ -351,33 +351,24 @@ footer {
     margin-right: 120px;
 }
 .uwhH {
-    margin-left: 120px;  
+    margin-left: 120px; 
+    flex-shrink: 0;
 }
 /*end top section -- uwh case study*/
-/*very janky solution to horizontal bars -- uwh case study*/
+/*horizontal bars -- uwh case study*/
 .dividerLine {
     display: flex; 
     flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
-hr.solid40 {
+hr.solid {
     border-top: 4px solid #9FE2BF;
-    min-width: 40%;
+    width: 100%;
+    margin: 0px 50px 0px 50px;
 }
-hr.solid60 {
-    border-top: 4px solid #9FE2BF;
-    min-width: 60%;
-}
-hr.solid50 {
-    border-top: 4px solid #9FE2BF;
-    min-width: 50%;
-}
-hr.solid45 {
-    border-top: 4px solid #9FE2BF;
-    min-width: 45%;
-}
-/*endvery janky solution to horizontal bars -- uwh case study*/
+/*horizontal bars -- uwh case study*/
+/*rest of uwh case study page*/
 .oldSite {
     display: flex; 
     justify-content: center;
