@@ -513,3 +513,42 @@ hr.solid {
     object-fit: cover;
 }
 /*end next case study preview*/
+/*applying grid layout to about me page*/
+.aboutMeGrid {
+    display: grid;
+    grid-template-columns: 40% 30% 30%;
+    grid-template-rows: 93% 7%; 
+    grid-template-areas: 
+    "imgGrid copyGrid copyGrid"
+    "imgGrid buttonGrid secondaryButtonGrid";
+    margin-right: 100px;
+
+}
+.imgGrid {
+    grid-area: imgGrid;
+    border-radius: 50%;
+    height: 300px;
+    width: auto;
+    margin-right: 20px;
+    margin-left: 100px;
+}
+.copyGrid {
+    grid-area: copyGrid; 
+}
+.secondaryButtonGrid {
+    grid-area: secondaryButtonGrid;
+    background-color: #F8F8F8; 
+    color: #A48596;
+    font-family: 'Alatsi', sans-serif;
+    width: 100%;
+    height: 42px;
+    border: 2px solid #A48596;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.buttonGrid {
+    grid-area: buttonGrid;
+    width: 100%;
+}
