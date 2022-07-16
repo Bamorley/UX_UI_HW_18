@@ -493,14 +493,15 @@ hr.solid {
     z-index: 2;
     top: 25%;
     right: 0px;
+    opacity: 0.65;
 }
 .grayBox p {
     font-family: 'Titillium Web', sans-serif;
     font-size: 18px;
     font-weight: 400;
     color: #F8F8F8;
-    text-align: right;
-    padding: 20px;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
 }
 .nextProject {
     position: relative;
