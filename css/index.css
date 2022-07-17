@@ -571,10 +571,10 @@ hr.solid {
         max-width: 100%;
     }
     .dol img {
-        margin: 10px;
+        margin: 60px 10px 0px 10px;
     }
     .clarity img {
-        margin: 10px;
+        margin: 60px 10px 0px 10px;
     }
     .clarity button {
         margin-bottom: 50px;
@@ -598,12 +598,14 @@ hr.solid {
         margin: none;
     }
     .heroImage {
-        position: relative;        
+        position: static;
         box-shadow: none;
+        height: auto;
+        margin: 10px;
     }
     .heroContent {
-        position: relative; 
-        margin: 50px 0px 50px 0px;
+        position: static;
+        margin: 0 10px;
         z-index: none;
     }
     .heroPurple {
@@ -618,8 +620,46 @@ hr.solid {
     }    
     .hero h1 {
         color:#323C3F;
-        margin: 50px 0px 50px 0px;
+        margin: 40px 0;
         z-index: none;
     }
-
+    .experienceBar {
+        display: none;
+    }
+    .educationBar {
+        display: none; 
+    }
+    .skillsBar {
+        display: none;
+    }
+    .resumeTop {
+        margin: 0 10px;
+    }
+    .resumeHeader {
+        margin: 0 10px;
+    }
+    .experience {
+        margin: 0 10px;
+    }
+    .education {
+        margin: 0 10px;
+    }
+    .skills {
+        margin: 0 10px;
+    }
+    .aboutImg {
+        height: auto;
+    }
+    .aboutMe {
+        margin: 0 10px;
+    }
+    .secondaryButton {
+        margin-top: 20px;
+    }
+    .diving, .uwhP {
+        margin: 0 10px;
+    }
+    .bamLogo {
+        margin-left: 10px;
+    }
 }
