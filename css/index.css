@@ -552,3 +552,74 @@ hr.solid {
     grid-area: buttonGrid;
     width: 100%;
 }
+.caseStudies h2 {
+    margin-left: 145px;
+}
+@media screen and (max-width: 600px) {
+    .aboutMe, .resumeTop, .experience, .education, .skills, .dividerLine, .oldSite, .surveyResults, .circle-Full, .logos, .iterations {
+        flex-direction: column;
+    }
+    .uwh, .dol, .clarity {
+        flex-direction: column;
+        margin: 0px 0px 0px 0px;
+    }
+    .uwhContent, .dolContent, .clarityContent {
+        margin-right: 0px;
+    }
+    .uwh img {
+        margin: 10px;
+        max-width: 100%;
+    }
+    .dol img {
+        margin: 10px;
+    }
+    .clarity img {
+        margin: 10px;
+    }
+    .clarity button {
+        margin-bottom: 50px;
+    }
+    .uwh h2 {
+        margin-right: 0px;
+        margin-top: 50px;
+    }
+    .caseStudies h2 {
+        margin-left: 0px;
+    }
+    .hero {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        background-color: #A48596;
+    }
+    .hero img {
+        width: 100%;
+        height: auto;
+        margin: none;
+    }
+    .heroImage {
+        position: relative;        
+        box-shadow: none;
+    }
+    .heroContent {
+        position: relative; 
+        margin: 50px 0px 50px 0px;
+        z-index: none;
+    }
+    .heroPurple {
+        display: none;
+    }
+    .pHero {
+        color:#323C3F;
+        margin: 20px 0px 50px 0px;  
+        align-items: center;
+        font-size: 18px;
+        z-index: none;
+    }    
+    .hero h1 {
+        color:#323C3F;
+        margin: 50px 0px 50px 0px;
+        z-index: none;
+    }
+
+}
