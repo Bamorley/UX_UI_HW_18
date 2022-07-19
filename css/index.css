@@ -526,11 +526,13 @@ hr.solid {
 }
 .imgGrid {
     grid-area: imgGrid;
-    border-radius: 50%;
-    height: 300px;
-    width: auto;
     margin-right: 20px;
     margin-left: 100px;
+}
+.imgGrid img {
+    height: auto;
+    border-radius: 50%;
+    width: 100%;
 }
 .copyGrid {
     grid-area: copyGrid; 
